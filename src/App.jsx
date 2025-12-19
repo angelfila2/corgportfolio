@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50/30 to-amber-50/20">
@@ -11,6 +12,7 @@ export default function App() {
         <Hero />
         <About />
         <Skills />
+        <Projects />
 
         <main className="px-6">
           <h1 className="text-4xl font-bold mt-8">Loaf Mode is working 🍞🐶</h1>

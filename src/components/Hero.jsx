@@ -10,9 +10,7 @@ const Hero = () => {
             <div className="w-24 h-24 rounded-full bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center shadow-lg">
               <div className="text-5xl">🐕</div>
             </div>
-            <div className="absolute -bottom-1 -right-1 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-bold shadow-md">
-              {"{ }"}
-            </div>
+            <div className="absolute -bottom-1 -right-1 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-bold shadow-md"></div>
           </div>
         </div>
 
