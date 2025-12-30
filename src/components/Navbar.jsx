@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-
+import avatar from "../assets/portfolio.png";
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -34,10 +34,7 @@ export default function Navbar() {
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center shadow-sm group-hover:shadow-md transition-shadow">
               <span className="text-2xl">
                 {" "}
-                <img
-                  src="src\assets\portfolio.png"
-                  className="h-6 w-6 object-contain"
-                ></img>
+                <img src={avatar} className="h-6 w-6 object-contain"></img>
               </span>
             </div>
             <span className="font-bold text-slate-900 hidden sm:inline">
