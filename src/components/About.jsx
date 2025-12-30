@@ -1,3 +1,5 @@
+import avatar from "../assets/portfolio.png";
+
 const About = () => {
   return (
     <section
@@ -9,19 +11,37 @@ const About = () => {
           About Me
         </h2>
 
-        <div className="rounded-xl border border-slate-200 bg-white shadow-sm p-10 md:p-12">
-          <p className="text-lg text-slate-700 leading-relaxed mb-6">
-            I'm a passionate backend developer with a strong foundation in
-            server-side technologies and database management. I thrive on
-            solving complex problems and building scalable solutions that power
-            modern applications.
-          </p>
+        <div className="flex flex-col md:flex-row gap-10 items-start">
+          {/* Image */}
+          <div className="w-72 h-72">
+            <img
+              src={avatar}
+              alt="Profile"
+              className="w-full h-full object-cover rounded-xl border border-slate-200"
+            />
+          </div>
 
-          <p className="text-lg text-slate-700 leading-relaxed">
-            When I'm not coding, you'll find me learning new technologies,
-            contributing to open source, or spending time with my corgi who's
-            the best debugging companion a developer could ask for! 🐾
-          </p>
+          {/* Text card matches image size */}
+          <div className="h-72 rounded-xl border border-slate-200 bg-white shadow-sm p-6 flex flex-col justify-center">
+            <p className="text-base text-slate-700 leading-relaxed mb-4">
+              I am Muhammad Syafiq Bin Wahinudin, a Singapore-based{" "}
+              <span className="font-semibold text-slate-900">
+                backend developer
+              </span>{" "}
+              and recent graduate specializing in{" "}
+              <span className="font-semibold text-slate-900">Node.js</span>.
+            </p>
+
+            <p className="text-base text-slate-700 leading-relaxed">
+              I{" "}
+              <span className="font-medium text-slate-900">take ownership</span>{" "}
+              of my work,{" "}
+              <span className="font-medium text-slate-900">
+                actively seek feedback
+              </span>
+              , and continuously refine my skills through real-world projects.
+            </p>
+          </div>
         </div>
       </div>
     </section>

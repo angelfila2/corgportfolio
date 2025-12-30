@@ -3,28 +3,29 @@ import SkillCard from "./SkillCard";
 const PROJECTS = [
   {
     label: "Room Booking",
-    description: "Some description here",
+    description:
+      "A room booking MVP designed to improve operational efficiency by simplifying reservations, preventing double bookings through conflict detection, and offering clear daily and weekly overviews for effective space management",
     url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
     technology: ["react", "node", "mongodb"],
   },
-  {
-    label: "Project 2",
-    description: "",
-    url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
-    technology: ["react", "node", "mongodb"],
-  },
-  {
-    label: "Project 3",
-    description: "",
-    url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
-    technology: ["react", "node", "mongodb"],
-  },
-  {
-    label: "Project 4",
-    description: "",
-    url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
-    technology: ["react", "node", "mongodb"],
-  },
+  // {
+  //   label: "Project 2",
+  //   description: "",
+  //   url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
+  //   technology: ["react", "node", "mongodb"],
+  // },
+  // {
+  //   label: "Project 3",
+  //   description: "",
+  //   url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
+  //   technology: ["react", "node", "mongodb"],
+  // },
+  // {
+  //   label: "Project 4",
+  //   description: "",
+  //   url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
+  //   technology: ["react", "node", "mongodb"],
+  // },
 ];
 
 const Projects = () => {
