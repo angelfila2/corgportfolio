@@ -2,7 +2,7 @@
 
 This repository contains my personal portfolio website, built to introduce myself as an aspiring backend developer and to showcase my skills, learning journey, and growth as a software engineer.
 
-The site is developed using React.js and Tailwind CSS, with additional iconography from popular icon libraries.
+The site is developed using React.js and Tailwind CSS, with additional icons from the Devcon lib.
 
 # Purpose & Vision
 
@@ -52,7 +52,6 @@ This project represents what I was able to achieve within one month of learning 
 - React.js
 - Tailwind CSS
 - JavaScript (ES6+)
-- Icon libraries (eg devicon)
 
 # Closing Note
 
